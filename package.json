@@ -1,0 +1,30 @@
+{
+  "name": "mongoapp",
+  "version": "1.0.0",
+  "description": "Its webabb and has backend in node js and db with mongoi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js dotenv_config_path=./.env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajidmasoodbscs/mongoapp.git"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "sajid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajidmasoodbscs/mongoapp/issues"
+  },
+  "homepage": "https://github.com/sajidmasoodbscs/mongoapp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  }
+}
